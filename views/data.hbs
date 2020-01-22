@@ -3,6 +3,9 @@
 <section>
     <h3>Monthly Update</h3>
     {{#each runData}}
-    <p> On the {{date}} you ran {{distance}}km's with a time of {{time}} and an average pace of {{avgPace}} per kilometre, your awesome!</p>
+    <p> On the {{date}} you ran {{distance}}km's with a time of {{time}} and an average pace of {{avgPace}} per kilometre!</p>
+    <p>You are on track for your weekley goal of {{week_goal}}km's</p>
+    <p>Monthly target is {{month_goal}}km's</p>
+
     {{/each}}
 </section>
